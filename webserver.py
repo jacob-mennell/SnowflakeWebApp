@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from snowflake import connector
 import pandas as pd
 import os
-#test
+
 app = Flask("my website")
 
 @app.route('/')
